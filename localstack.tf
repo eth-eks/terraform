@@ -24,10 +24,10 @@ resource aws_sqs_queue "queues" {
 variable queues {
   type = list
   default = [
-    "verify",
-    "payment-sync",
-    "trade-sync",
-    "transfer-sync"
+    "alerts",
+    "payment_sync",
+    "trade_sync",
+    "transfer_sync"
   ]
 }
 
